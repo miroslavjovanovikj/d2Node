@@ -1,0 +1,21 @@
+<%- include ("partials/header") %>
+
+
+<% blogs.forEach((item,i)=>{%>
+  <div class="container">
+     <div class="row">
+         <div class="col-md-6 col-md-offset-3 frameDiv">
+            <div class="itemTitle">
+              <h3 class="oneTitle">  <%=item.title.toUpperCase()%></h3>
+              <img  class="frontImg"src="<%=item.image%>" alt="<%=item.title%>" />
+              <p class="itemText"><%=item.text%></p>
+            </div>
+            <a class="aButt"href="/blog/delete/<%=i%>">del</a>
+          </div>
+        </div>
+     </div>
+  <%})%>
+<div>
+<a href="/blog/new">Create Post</a>
+</div>
+<%- include ("partials/footer") %>

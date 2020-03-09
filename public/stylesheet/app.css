@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(232, 232, 232)
+}
+.frontImg {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.itemTitle{
+  text-align: center;
+}
+
+.frameDiv{
+
+  width: 450px;
+  -webkit-box-shadow: 0px -1px 21px -4px rgba(10,10,10,1);
+  -moz-box-shadow: 0px -1px 21px -4px rgba(10,10,10,1);
+  box-shadow: 0px -1px 21px -4px rgba(10,10,10,1);
+  margin-bottom: 30px;
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+}
+.oneTitle{
+  color: rgb(124, 124, 124);
+}
+ nav.navbar.navbar-default{
+   margin-bottom: 90px;
+ }
+.aButt{
+  background-color: red;
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.aButt:hover{
+  background-color: rgb(164, 24, 10);
+  color: white;
+  padding: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.itemText{
+  text-align: justify;
+}
